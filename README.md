@@ -41,6 +41,8 @@ This project uses facial expressions and hand gestures to classify emotions with
    python data_collection.py
 
 4. Follow the instructions to collect new data.
+
+
   A. Train the model (optional):
      ```bash
      python data_training.py
