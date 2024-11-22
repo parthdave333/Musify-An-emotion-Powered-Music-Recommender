@@ -41,15 +41,13 @@ This project uses facial expressions and hand gestures to classify emotions with
    python data_collection.py
 
 4. Follow the instructions to collect new data.
+      A. Train the model (optional):
 
-
-  A. Train the model (optional):
-     ```bash
-     python data_training.py
-  B. Ensure your .npy files are in the same directory.
-  C. Run the Streamlit app:
+       python data_training.py
+      B. Ensure your .npy files are in the same directory.
+      C. Run the Streamlit app:
   
-     streamlit run music.py
+       streamlit run music.py
 
 ## Dataset
 The dataset consists of landmarks for facial and hand gestures captured using MediaPipe and saved as .npy files. Users can collect and add new gestures to enhance the dataset.
