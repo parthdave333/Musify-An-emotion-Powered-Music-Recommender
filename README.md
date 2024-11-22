@@ -41,11 +41,11 @@ This project uses facial expressions and hand gestures to classify emotions with
    python data_collection.py
 
 4. Follow the instructions to collect new data.
-A. Train the model (optional):
+   Train the model (optional):
 
        python data_training.py
-      B. Ensure your .npy files are in the same directory.
-      C. Run the Streamlit app:
+   Ensure your .npy files are in the same directory.
+   Run the Streamlit app:
   
        streamlit run music.py
 
